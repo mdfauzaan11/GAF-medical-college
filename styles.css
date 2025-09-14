@@ -247,7 +247,7 @@ nav a.active {
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  overflow: hidden;
+  overflow:hidden;
   text-align: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -343,13 +343,17 @@ nav a.active {
    Footer
 ------------------------------- */
 footer {
-  background: #14532d;
-  color: #fff;
+  background:#14532d;
+  color: #ffffff;
   text-align: center;
   padding: 18px 0;
   font-size: 0.9rem;
 }
-
+/* p in footor */
+footer p {
+  margin: 0;
+  color: #ffffff;
+}
 /* ------------------------------
    Responsive
 ------------------------------- */
@@ -378,4 +382,3 @@ footer {
   margin-left: 0;   /* no extra spacing */
   padding-left: 0;
 }
-
